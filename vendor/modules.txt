@@ -4,6 +4,10 @@
 github.com/PuerkitoBio/purell
 # github.com/PuerkitoBio/urlesc v0.0.0-20170810143723-de5bf2ad4578
 github.com/PuerkitoBio/urlesc
+# github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751
+## explicit
+github.com/alecthomas/template
+github.com/alecthomas/template/parse
 # github.com/gin-contrib/sse v0.1.0
 github.com/gin-contrib/sse
 # github.com/gin-gonic/gin v1.6.3
@@ -66,6 +70,7 @@ github.com/swaggo/files
 ## explicit
 github.com/swaggo/gin-swagger
 # github.com/swaggo/swag v1.5.1
+## explicit
 github.com/swaggo/swag
 # github.com/toorop/gin-logrus v0.0.0-20200831135515-d2ee50d38dae
 ## explicit

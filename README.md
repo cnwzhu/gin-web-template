@@ -22,3 +22,15 @@ gin sqlx logrus log split project template
     ```shell
   app.exe -help
    ```
+
+### swagger文档安装与生成
+
+- 安装
+  ```shell
+  go get -u github.com/swaggo/swag/cmd/swag
+  ```
+
+- 生成
+  ```shell
+  swag init -g ./cmd/app/main.go -d ./
+  ```

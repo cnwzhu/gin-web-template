@@ -1,0 +1,34 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "contact": {}
+    },
+    "paths": {
+        "/api/v1/app/index": {
+            "get": {
+                "produces": [
+                    "application/json"
+                ],
+                "summary": "健康状态",
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "$ref": "#/definitions/models.Index"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+        "models.Index": {
+            "type": "object",
+            "properties": {
+                "status": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+}
