@@ -1,0 +1,19 @@
+port: 6060
+profile: prod
+database:
+  host: localhost
+  port: 3306
+  username: root
+  password: root
+  dbname: app
+  drivername: mysql
+  maxidle: 20
+  maxidletime:
+  maxopen: 100
+  maxlifetime:
+log:
+  filename: ./app.log
+  maxsize: 100
+  maxage: 30
+  compress: false
+
